@@ -1,0 +1,21 @@
+{
+  "name": "Popup Blocker",
+  "description": "A popup blocker to block annoying popups on websites",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "permissions": [
+    "activeTab"
+  ],
+  "icons": {
+    "16": "/images/popup_blocker_16.png",
+    "32": "/images/popup_blocker_32.png",
+    "48": "/images/popup_blocker_48.png",
+    "128": "/images/popup_blocker_128.png"
+  }
+}

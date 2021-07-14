@@ -1,2 +1,2 @@
 # popup-blocker-chrome
-A blocker for annoying popups on Chrome
+A simple Chrome extension to block annoying popups
